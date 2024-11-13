@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="flex-container">
+    <div class="main-header">
+     <h1>Etch-a-Sketch</h1>
+    </div>
+    <div class="mode-display">
+      <span class="active-mode"></span>
+    </div>
+    <div class="sketch-board">
+    </div>
+    <div class="button-row">
+      <button class="black buttons">Black</button>
+      <button class="random buttons">Random</button>
+      <button class="eraser buttons">Eraser</button>
+      <button class="reset buttons">Reset</button>
+    </div>
+    <div class="create-board">
+      <input class= "input" type="number" placeholder="Size of the board" value="16">
+      <button class="set-size">Set Size</button>
+      <span class="create-board-error"></span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
