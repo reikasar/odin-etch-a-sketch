@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  background: rgb(244,186,48);
+  background: linear-gradient(198deg, rgba(244,186,48,1) 11%, rgba(0,212,255,1) 100%);
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1em;
+
+  margin-top: 20px;
+}
+
+.main-header {
+  color: whitesmoke;
+}
+
+.mode-display {
+
+}
+
+.active-mode {
+
+}
+
+.sketch-board {
+  width: 600px;
+  height: 600px;
+
+  border-radius: 10px;
+
+  background-color: white;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button-row {
+
+}
+
+.buttons {
+
+}
+
+.create-board {
+
+}
+
+.create-board-error {
+
+}
