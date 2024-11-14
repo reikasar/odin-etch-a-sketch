@@ -22,11 +22,13 @@ body {
 }
 
 .main-header {
-  color: whitesmoke;
+  color: darkgreen;
+  font-size: larger;
 }
 
 .mode-display {
-
+  color: darkgreen;
+  font-size: larger;
 }
 
 .active-mode {
@@ -46,23 +48,13 @@ body {
   display: grid;
 }
 
-.square {
-  /* width: 20px;
-  height: 20px; */
-}
-
-.button-row {
-
-}
-
 .buttons {
-
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 5px;
 }
 
-.create-board {
-
-}
-
-.create-board-error {
-
+.set-size {
+  padding: 5px;
+  border-radius: 5px;
 }
